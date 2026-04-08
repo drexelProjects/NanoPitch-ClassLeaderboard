@@ -9,6 +9,7 @@ on:
       - main
     paths:
       - "submissions/**"
+  workflow_dispatch:
 
 permissions:
   contents: write        # needed to commit leaderboard update on merge
